@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDebtorActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTitle"
+        android:text="Debtors Details"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/txtName"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/txtName"
+        android:hint="name"
+
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/txtContact"
+        android:text="Contact"
+        android:textSize="20sp"
+        android:layout_below="@id/txtName"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/edtContact"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/edtName"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/txtContact"
+        android:hint="contact"
+
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/txtVRN"
+        android:text="VRN"
+        android:textSize="20sp"
+        android:layout_below="@id/txtContact"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:id="@+id/edtVRN"
+        android:hint="vrn"
+        android:layout_toRightOf="@id/txtVRN"
+        android:layout_below="@id/edtContact"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/txtLitres"
+        android:text="Litres"
+        android:textSize="20sp"
+        android:layout_below="@id/txtVRN"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:id="@+id/edtLitres"
+        android:hint="litres"
+        android:layout_toRightOf="@id/txtLitres"
+        android:layout_below="@id/edtVRN"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:id="@+id/txtCost"
+        android:text="Cost"
+        android:textSize="20sp"
+        android:layout_below="@id/txtLitres"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:id="@+id/edtCost"
+        android:hint="cost"
+        android:layout_toRightOf="@id/txtCost"
+        android:layout_below="@id/edtLitres"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAdd"
+        android:text="Add debtor"
+        android:textSize="20sp"
+        android:layout_below="@id/edtCost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelete"
+        android:text="Delete"
+        android:textSize="20sp"
+        android:layout_below="@id/btnAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdate"
+        android:text="Update"
+        android:textSize="20sp"
+        android:layout_below="@id/btnDelete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnView"
+        android:text="Debtors"
+        android:textSize="20sp"
+        android:layout_below="@id/btnUpdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+
+</RelativeLayout>

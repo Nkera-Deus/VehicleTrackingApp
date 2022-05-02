@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtlogintitle"
+        android:text="Vehicle Tracking App"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtusername"
+        android:layout_below="@id/txtlogintitle"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter username"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtusername"
+        android:id="@+id/edtpassword"
+        android:hint="Enter password"
+        android:textSize="20dp"
+        android:inputType="text"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtpassword"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnforgotpassword"
+        android:layout_marginTop="20dp"
+        android:text="forgot password"
+        android:textSize="20dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnforgotpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnlogin"
+        android:text="Log in"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="No. of attempts"
+        android:textSize="20dp"
+
+        />
+
+
+</RelativeLayout>
